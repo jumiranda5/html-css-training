@@ -12,6 +12,7 @@
     --accent-color: #0cff85;
     --hover-color: #008974;
 
+    scroll-behavior: smooth;
     font-size: 16px;
 }
 
@@ -88,7 +89,8 @@ header li {
     color: #1f242d;
 }
 
-.nav-link:hover {
+.nav-link:hover,
+.nav-link.active {
     background-color: #008974;
     color: #fff;
 }
@@ -106,6 +108,7 @@ header li {
 
 section { 
     height: 100vh; 
+    scroll-margin-top: 1.5em;
     background: #4d7975;
 }
 
