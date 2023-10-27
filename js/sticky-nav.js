@@ -36,9 +36,9 @@ const setActiveLink = () => {
                 document.querySelector('.nav-link[href*=' + id + ']').classList.add('active');
             });
 
+            currentId = id;
             console.log(currentId);
         };
-        currentId = id;
     });
 
 }
