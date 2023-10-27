@@ -2,6 +2,7 @@
 
 // When the user scrolls the page, execute myFunction
 window.onscroll = () => { setScroll() };
+window.onresize = () => { setScroll() };
 
 // Get the navbar
 let navbar = document.getElementById("navbar");
